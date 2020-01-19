@@ -18,7 +18,7 @@ For this Assessment you will be building a simple YouTube client application. Yo
 ## Setup and the YouTube API
 
 ### API Key
-  * To be able to make requests/calls to the YouTube API you will need to get an API key and use it in your network requests. Learn [How to get an API key here](http://bit.ly/2Tx1h5d). Once obtained, the key needs to be used in a url [query parameter](https://en.wikipedia.org/wiki/Query_string#Structure) like so: `key=YOUR_API_KEY`. 
+  * To be able to make requests/calls to the YouTube API you will need to get an API key and use it in your network requests. Learn [How to get an API key here](how_to_get_youtube_api_key.md). Once obtained, the key needs to be used in a url [query parameter](https://en.wikipedia.org/wiki/Query_string#Structure) like so: `key=YOUR_API_KEY`. 
   * Once you receive the API Key put it inside of a file in `src/` that can be named `secrets.js` and export it like so:
   ```js
   // src/secrets.js
