@@ -14,14 +14,14 @@ function App() {
       <nav className = 'NavBar'>
         <Link to="/">Home</Link>{" "}
         <Link to="/about">About</Link>{" "}
-        <Link to="/Video">Video</Link>{" "}
+        <Link to="/Video/:id">Video</Link>{" "}
    
       </nav>
 
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/video" component={Video} />s
+        <Route path="/video/:id" component={Video} />s
       </Switch>
 
     </div>
